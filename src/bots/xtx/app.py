@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import pytz
 from src.secret import LINKS, USER_AGENTS
 from src.settings import TELEGRAM_CHAT_ID, TELEGRAM_TOKEN, TIMEZONE
-from src.bots.xtx.lib.utils import set_output
+from src.bots.xtx.utils.utils import set_output
 from src.shared.telegram import api_telegram
 
 
